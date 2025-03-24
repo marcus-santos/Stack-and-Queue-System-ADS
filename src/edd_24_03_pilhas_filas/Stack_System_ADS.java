@@ -1,9 +1,9 @@
 package edd_24_03_pilhas_filas;
 
-public class EDD_24_03_Pilhas_Filas {
+public class Stack_System_ADS {
     public static void main(String[] args) {
 
-        Pilha p1 = new Pilha(5);
+        Stack p1 = new Stack(5);
         
         p1.empilhar(5);
         System.out.println(p1.topo());

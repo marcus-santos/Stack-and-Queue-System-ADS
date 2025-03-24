@@ -1,13 +1,13 @@
 package edd_24_03_pilhas_filas;
 
-public class Pilha {
+public class Stack {
     public int tamanho = 0;
     public int topo = -1;
     public int[] vet;
     public int vetSize;
 
     
-    public Pilha(int i) {
+    public Stack(int i) {
         vet = new int[i];
         vetSize = i; 
     }
