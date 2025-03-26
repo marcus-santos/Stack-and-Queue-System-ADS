@@ -1,6 +1,6 @@
 package edd_24_03_pilhas_filas;
 
-public class Stack_System_ADS {
+public class App {
     public static void main(String[] args) {
 
         Stack p1 = new Stack(5);
@@ -15,6 +15,20 @@ public class Stack_System_ADS {
         System.out.println(p1.topo());
         System.out.println(p1.tamanho());
         p1.exibe();
+
+
+        Queue fila = new Queue(5);
+
+        fila.enfileirar(0);
+        fila.enfileirar(0);
+        fila.enfileirar(0);
+        fila.enfileirar(0);
+        fila.enfileirar(0);
+        fila.desenfileirar();
+        fila.desenfileirar();
+        fila.enfileirar(0);
+        fila.enfileirar(0);
+        fila.exibir();
 
     }
     
